@@ -1,4 +1,5 @@
 import 'package:clockprojectprototype/introPage.dart';
+import 'package:clockprojectprototype/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: introPage(),
+      home: SplashScreen(),
     );
   }
 }
